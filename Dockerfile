@@ -1,3 +1,3 @@
 FROM centos
-RUN yum -y update
-RUN echo "Hello world
+RUN yum -y install git
+RUN yum -y install httpd

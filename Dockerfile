@@ -1,3 +1,2 @@
-FROM centos
-RUN yum -y install git
-RUN yum -y install httpd
+FROM ubuntu
+RUN apt-get install git -y
